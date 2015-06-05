@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div data-role="page">
+<div data-role="page" id="main">
 
 	<div data-role="header">
 		<h1>Page Title</h1>
@@ -19,6 +19,23 @@
 
 	<div role="main" class="ui-content">
 		<p>Page content goes here. Alex Kündig</p>
+		<p><a href="#sub" class="ui-btn" data-transition="flip">Auf die zweite Seite</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="sub">
+
+	<div data-role="header">
+		<h1>Page Title</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>Page zwei content goes here. Alex Kündig</p>
+		<p><a href="#main" class="ui-btn" data-transition="flip" data-direction="reverse">Hauptseite</a></p>
 	</div><!-- /content -->
 
 	<div data-role="footer">
