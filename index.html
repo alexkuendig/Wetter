@@ -13,13 +13,25 @@
 
 <div data-role="page" id="main">
 
-	<div data-role="header">
+	<div data-role="header" >
 		<h1>Page Title</h1>
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
 		<p>Page content goes here. Alex Kündig</p>
-		<p><a href="#sub" class="ui-btn" data-transition="flip">Auf die zweite Seite</a></p>
+		
+		
+		<p><a href="#sub" class="ui-btn" data-transition="fade">Auf die zweite Seite fade</a></p>
+		<p><a href="#sub" class="ui-btn" data-transition="pop">Auf die zweite Seite pop</a></p>
+		<p><a href="#sub" class="ui-btn" data-transition="flip">Auf die zweite Seite flip</a></p>
+		<p><a href="#sub" class="ui-btn" data-transition="turn">Auf die zweite Seite turn</a></p>
+		<p><a href="#sub" class="ui-btn" data-transition="flow">Auf die zweite Seite flow</a></p>
+		<p><a href="#sub" class="ui-btn" data-transition="sidefade">Auf die zweite Seite sidefade</a></p>
+		<p><a href="#sub" class="ui-btn" data-transition="slide">Auf die zweite Seite slide</a></p>
+		<p><a href="#sub" class="ui-btn" data-transition="slideup">Auf die zweite Seite slideup</a></p>
+		<p><a href="#sub" class="ui-btn" data-transition="slidedown">Auf die zweite Seite slidedown</a></p>
+
+		
 	</div><!-- /content -->
 
 	<div data-role="footer">
@@ -29,13 +41,13 @@
 
 <div data-role="page" id="sub">
 
-	<div data-role="header">
+	<div data-role="header" data-add-back-btn="true">
 		<h1>Page Title</h1>
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
 		<p>Page zwei content goes here. Alex Kündig</p>
-		<p><a href="#main" class="ui-btn" data-transition="flip" data-direction="reverse">Hauptseite</a></p>
+		
 	</div><!-- /content -->
 
 	<div data-role="footer">
