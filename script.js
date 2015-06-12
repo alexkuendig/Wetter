@@ -26,6 +26,7 @@ $(document).ready(function(){
 				}
 			}).done(function(data){
 				$('#titelort').text(data.results[0].formatted_address);
+				$('#titelort').text(data.results[0].address_components[1].long_name);
 				console.log(data);
 				
 			});
