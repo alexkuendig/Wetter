@@ -15,14 +15,14 @@ $(document).ready(function(){
 			dataType: 'jsonp'
 		}).done(function(data){
 			console.log(data);
-
+			$('.temperatur').text(data.currently.apparentTemperature);
 		});
 
 		/*console.log(position);
 	$('.latitude').text(position.coords.latitude);
 	$('.longitude').text(position.coords.longitude);
 	$('.accuracy').text(position.coords.accuracy);*/
-	$('.temperatur').text(position.currently.apparentTemperature);
+	
 
 	});
 
