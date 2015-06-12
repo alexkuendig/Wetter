@@ -25,8 +25,8 @@ $(document).ready(function(){
 					lang: 'de'
 				}
 			}).done(function(data){
-				$('#titelort').text(data.results[0].formatted_address);
-				$('.Strasse').text(data.results[0].address_components[1].long_name);
+				$('.Strasse').text(data.results[0].formatted_address);
+				$('#titelort').text(data.results[0].address_components[1].long_name);
 				console.log(data);
 				
 			});
