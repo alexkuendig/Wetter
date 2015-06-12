@@ -6,16 +6,15 @@ $(document).ready(function(){
 			longitude: 	position.coords.longitude
 		};
 
-		$.ajax(){
+		$.ajax({
 			url: 'https://api.forecast.io/forecast/1b227f5bfda2a75058c33b2f109c7b0a/'+ koordinaten.latitude + ',' +koordinaten.longitude,
 			data: {
 				units: 'ca',
 				lang: 'de'
 			},
-			dataType: 'jasop'
-			).done(function(data){
-				console.log(data);
-
+			dataType: 'jsonp'
+		}).done(function(data){
+			console.log(data);
 
 		});
 
@@ -24,7 +23,7 @@ $(document).ready(function(){
 	$('.longitude').text(position.coords.longitude);
 	$('.accuracy').text(position.coords.accuracy);*/
 
-		});
+	});
 
 
 });
