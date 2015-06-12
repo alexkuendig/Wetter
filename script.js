@@ -22,6 +22,7 @@ $(document).ready(function(){
 	$('.latitude').text(position.coords.latitude);
 	$('.longitude').text(position.coords.longitude);
 	$('.accuracy').text(position.coords.accuracy);*/
+	$('.temperatur').text(position.currently.apparentTemperature);
 
 	});
 
