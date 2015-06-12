@@ -2,8 +2,8 @@ $(document).ready(function(){
 	navigator.geolocation.getCurrentPosition(function(position){
 
 		var koordinaten = {
-			latitude: 	position.coords.latitude;
-			longitude: 	position.coords.longitude;
+			latitude: 	position.coords.latitude,
+			longitude: 	position.coords.longitude
 		};
 
 		$.ajax(){
