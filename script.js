@@ -27,7 +27,7 @@ $(document).ready(function(){
 			}).done(function(data){
 				//$('.titelort').text(data.results.0.formatted_address);
 				console.log(data);
-				//console.log(data.results.0.formatted_address);
+				console.log(data.results.0.formatted_address);
 			});
 
 
