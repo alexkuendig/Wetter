@@ -25,7 +25,7 @@ $(document).ready(function(){
 					lang: 'de'
 				}
 			}).done(function(data){
-				$('.titelort').text(data.results[0][formatted_address]);
+				$('.titelort').text(data.results[0]);
 				console.log(data);
 				
 			});
