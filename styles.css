@@ -1,0 +1,116 @@
+div.w_icon {
+    width: 20%;
+    
+    float:left;
+   
+}
+div.w_text {
+    width: 70%;
+    padding: 0 0px 15px 15px;
+    float: left;
+   
+}
+div.w_text2 {
+    width: 90%;
+    padding: 0 15px 15px 15px;
+    clear: both;
+   
+}
+div.w_text3 {
+    clear: both;
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+.Ueberschrift_1{
+    width: 95%;
+    float: left;
+    margin: 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.Ueberschrift_2{
+    width: 90%;
+    float: left;
+    margin: 0 10px 10px 10px;
+}
+.wetterbedingungen_0 {
+    font-size: 1em;
+    float: left;
+}
+.wetterbedingungen_1 {
+    font-size: 1em;
+    float: left;
+}
+.wetterbedingungen_2 {
+    font-size: 1em;
+    float: left;
+}
+.wetterbedingungen_3 {
+    font-size: 1em;
+    float: left;
+}
+.wetterbedingungen_4 {
+    font-size: 1em;
+    float: left;
+}
+.vorschau_A {
+    float: left;
+    margin-right: 10px;
+}
+@media screen
+and (orientation: landscape) {
+    div.w_icon {
+    width: 10%;
+    float: left;
+}
+div.w_text {
+    width: 80%;
+    padding: 0 15px 15px 15px;
+    float: left;
+}
+div.w_text2 {
+    width: 90%;
+    padding: 0 15px 15px 15px;
+    clear: both;
+}
+div.w_text3 {
+    
+    padding: 0 15px 15px 15px;
+    clear: both;
+}
+.Ueberschrift_1{
+    width: 55%;
+    float: left;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 0px 10px 10px;
+}
+.Ueberschrift_2{
+    width: 40%;
+    float: left;
+    font-size: 0.9em;
+    margin: 0 0px 30px 0px;
+}
+.wetterbedingungen_0 {
+    font-size: 1.5em;
+}
+.wetterbedingungen_1 {
+    font-size: 1.5em;
+}
+.wetterbedingungen_2 {
+    font-size: 1.5em;
+}
+.wetterbedingungen_3 {
+    font-size: 1.5em;
+}
+.wetterbedingungen_4 {
+    font-size: 1.5em;
+}
+.vorschau_A {
+    font-size: 1.5em;
+    float: left;
+    margin-right: 10px;
+}
+}
