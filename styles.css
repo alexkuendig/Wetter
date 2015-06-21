@@ -1,116 +1,148 @@
-div.w_icon {
-    width: 20%;
-    
-    float:left;
-   
-}
-div.w_text {
-    width: 70%;
+body    {      
+    font-family: 'Raleway', sans-serif;}
+h1      {
+    font-family: 'Poiret One';
+    font-size: 2.2em;}
+.vorschau_datum_0   {
+    font-family: 'Raleway', sans-serif;
+    color: #600;    }
+.vorschau_datum_1,
+.vorschau_datum_2,
+.vorschau_datum_3,
+.vorschau_datum_4,
+.vorschau_datum_5,
+.vorschau_datum_6,
+.vorschau_datum_7   {
+    font-family: 'Raleway', sans-serif;
+    color: #006;
+    float: left;
+    margin-right: 10px;}
+.wetterbedingungen_0    {
+    font-family: 'Raleway', sans-serif;
+    color: #600;        }
+.wetterbedingungen_1,
+.wetterbedingungen_2,
+.wetterbedingungen_3,
+.wetterbedingungen_4,
+.wetterbedingungen_5,
+.wetterbedingungen_6,
+.wetterbedingungen_7    {
+    font-family: 'Raleway', sans-serif;
+    color: #006;
+    font-size: 1em;
+    float: left;        }
+div.w_icon      {
+    width: 30%;
+    float:left; }
+div.w_text      {
+    width: 60%;
     padding: 0 0px 15px 15px;
     float: left;
-   
-}
-div.w_text2 {
+    color: #600;}
+div.w_text2     {
     width: 90%;
     padding: 0 15px 15px 15px;
+    clear: both;}
+div.w_text3     {
     clear: both;
-   
-}
-div.w_text3 {
-    clear: both;
-    margin: 0;
-}
-img {
-    width: 100%;
-}
-.Ueberschrift_1{
+    margin: 0;  }
+.Ueberschrift_1 {
     width: 95%;
     float: left;
     margin: 0 10px;
     font-size: 1.2em;
     font-weight: bold;
-}
-.Ueberschrift_2{
+    color: #600;}
+.Ueberschrift_2 {
+    width: 90%;
+    float: left;
+    margin: 0 10px 10px 10px;   }
+.Ueberschrift_3 {
     width: 90%;
     float: left;
     margin: 0 10px 10px 10px;
-}
-.wetterbedingungen_0 {
-    font-size: 1em;
-    float: left;
-}
-.wetterbedingungen_1 {
-    font-size: 1em;
-    float: left;
-}
-.wetterbedingungen_2 {
-    font-size: 1em;
-    float: left;
-}
-.wetterbedingungen_3 {
-    font-size: 1em;
-    float: left;
-}
-.wetterbedingungen_4 {
-    font-size: 1em;
-    float: left;
-}
-.vorschau_A {
-    float: left;
-    margin-right: 10px;
-}
+    color: #600;}
+canvas          {
+    width: 100%;}
+canvas.js-icon_0,
+canvas.js-icon_1,
+canvas.js-icon_2,
+canvas.js-icon_3,
+canvas.js-icon_4,
+canvas.js-icon_5,
+canvas.js-icon_6,
+canvas.js-icon_7    {
+    width: 30px;}
+.map_canvas {
+    background:greenyellow;
+    padding: 0;
+    position: absolute;
+    top: 44px;
+    right: 0;
+    bottom: 44px;
+    left: 0;}
+
+//LANDSCAPE MODUS
 @media screen
 and (orientation: landscape) {
-    div.w_icon {
-    width: 10%;
-    float: left;
-}
-div.w_text {
-    width: 80%;
-    padding: 0 15px 15px 15px;
-    float: left;
-}
-div.w_text2 {
-    width: 90%;
-    padding: 0 15px 15px 15px;
-    clear: both;
-}
-div.w_text3 {
-    
-    padding: 0 15px 15px 15px;
-    clear: both;
-}
-.Ueberschrift_1{
-    width: 55%;
-    float: left;
-    font-size: 1.3em;
-    font-weight: bold;
-    margin: 0 0px 10px 10px;
-}
-.Ueberschrift_2{
-    width: 40%;
-    float: left;
-    font-size: 0.9em;
-    margin: 0 0px 30px 0px;
-}
-.wetterbedingungen_0 {
-    font-size: 1.5em;
-}
-.wetterbedingungen_1 {
-    font-size: 1.5em;
-}
-.wetterbedingungen_2 {
-    font-size: 1.5em;
-}
-.wetterbedingungen_3 {
-    font-size: 1.5em;
-}
-.wetterbedingungen_4 {
-    font-size: 1.5em;
-}
-.vorschau_A {
-    font-size: 1.5em;
-    float: left;
-    margin-right: 10px;
-}
+    div.w_icon  {
+        width: 20%;
+        float: left;}
+    div.w_text      {
+        width: 70%;
+        padding: 0 0px 15px 0px;
+        float: left;}
+    div.w_text2 {
+        width: 90%;
+        padding: 0 15px 15px 15px;
+        clear: both;}
+    div.w_text3 {
+        padding: 0 15px 0px 15px;
+        clear: both;}
+    .Ueberschrift_1{
+        width: 55%;
+        float: left;
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 0 0px 10px 10px;}
+    .Ueberschrift_2{
+        width: 40%;
+        float: left;
+        font-size: 0.9em;
+        margin: -10px 0px 0px 0px;}
+    .wetterbedingungen_1,
+    .wetterbedingungen_2,
+    .wetterbedingungen_3,
+    .wetterbedingungen_4,
+    .wetterbedingungen_5,
+    .wetterbedingungen_6,
+    .wetterbedingungen_7    {
+        font-size: 1.5em;}
+    .vorschau_datum_1,
+    .vorschau_datum_2,
+    .vorschau_datum_3,
+    .vorschau_datum_4,
+    .vorschau_datum_5,
+    .vorschau_datum_6,
+    .vorschau_datum_7   {
+        font-size: 1.5em;
+        float: left;
+        margin-right: 10px;}
+    canvas.js-icon_0,
+    canvas.js-icon_1,
+    canvas.js-icon_2,
+    canvas.js-icon_3,
+    canvas.js-icon_4,
+    canvas.js-icon_5,
+    canvas.js-icon_6,
+    canvas.js-icon_7    {
+        width: 50px;}
+    .map_canvas {
+        background:greenyellow;
+        padding: 0;
+        position : absolute;
+        top : 44px;
+        right : 0;
+        bottom : 44px;
+        left : 0;}
 }
